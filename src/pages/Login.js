@@ -4,6 +4,11 @@ import FirebaseApp from "../constants/base";
 import { AuthContext } from "../constants/auth";
 import "./styles/login.css";
 import logo from "../assets/logo.svg";
+
+
+//////Login page////////
+
+
 const Login = ({ history }) => {
   const handleLogin = useCallback(
     async event => {

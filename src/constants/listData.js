@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import FirebaseApp from "./base";
 
 const useFetchData = currentList => {
-  const [list, setList] = useState([]);
-  const [error, setError] = useState(null);
+  const [list, setList] = React.useState([]);
+  const [error, setError] = React.useState(null);
 
   useEffect(() => {
     FirebaseApp.database()

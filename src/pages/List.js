@@ -3,7 +3,6 @@ import Sidebar from "../components/sidebar";
 import { withRouter } from "react-router";
 import swal from "sweetalert";
 import useFetchData from "../constants/listData";
-import "./styles/global.css";
 import "./styles/list.css";
 
 const List = typeList => {

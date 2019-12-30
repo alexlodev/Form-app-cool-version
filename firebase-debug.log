@@ -1,29 +1,25 @@
-[debug] [2019-12-29T22:58:41.934Z] ----------------------------------------------------------------------
-[debug] [2019-12-29T22:58:41.936Z] Command:       /usr/local/Cellar/node/12.4.0/bin/node /usr/local/bin/firebase serve
-[debug] [2019-12-29T22:58:41.936Z] CLI Version:   7.11.0
-[debug] [2019-12-29T22:58:41.936Z] Platform:      darwin
-[debug] [2019-12-29T22:58:41.936Z] Node Version:  v12.4.0
-[debug] [2019-12-29T22:58:41.937Z] Time:          Sun Dec 29 2019 16:58:41 GMT-0600 (Central Standard Time)
-[debug] [2019-12-29T22:58:41.937Z] ----------------------------------------------------------------------
-[debug] [2019-12-29T22:58:41.937Z] 
-[debug] [2019-12-29T22:58:41.947Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-12-29T22:58:41.948Z] > authorizing via signed-in user
-[debug] [2019-12-29T22:58:41.948Z] [iam] checking project expediente-cd5bd for permissions ["firebase.projects.get"]
-[debug] [2019-12-29T22:58:41.949Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2019-12-29T22:58:41.949Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2019-12-29T22:58:42.265Z] <<< HTTP RESPONSE 200
-[debug] [2019-12-29T22:58:42.281Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/expediente-cd5bd:testIamPermissions  
+[debug] [2019-12-30T16:03:49.369Z] ----------------------------------------------------------------------
+[debug] [2019-12-30T16:03:49.371Z] Command:       /usr/local/Cellar/node/12.4.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-12-30T16:03:49.371Z] CLI Version:   7.11.0
+[debug] [2019-12-30T16:03:49.371Z] Platform:      darwin
+[debug] [2019-12-30T16:03:49.371Z] Node Version:  v12.4.0
+[debug] [2019-12-30T16:03:49.372Z] Time:          Mon Dec 30 2019 10:03:49 GMT-0600 (Central Standard Time)
+[debug] [2019-12-30T16:03:49.372Z] ----------------------------------------------------------------------
+[debug] [2019-12-30T16:03:49.372Z] 
+[debug] [2019-12-30T16:03:49.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-30T16:03:49.380Z] > authorizing via signed-in user
+[debug] [2019-12-30T16:03:49.380Z] [iam] checking project expediente-cd5bd for permissions ["firebase.projects.get"]
+[debug] [2019-12-30T16:03:49.382Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/expediente-cd5bd:testIamPermissions  
 
-[debug] [2019-12-29T22:58:42.846Z] <<< HTTP RESPONSE 200
-[debug] [2019-12-29T22:58:42.848Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/expediente-cd5bd  
+[debug] [2019-12-30T16:03:50.644Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-30T16:03:50.646Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/expediente-cd5bd  
  
-[debug] [2019-12-29T22:58:43.452Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-30T16:03:52.736Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/alexlo/Documents/form-app-cool'...
 [info] 
-[debug] [2019-12-29T22:58:43.456Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/expediente-cd5bd/webApps/-/config  
+[debug] [2019-12-30T16:03:52.743Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/expediente-cd5bd/webApps/-/config  
  
-[debug] [2019-12-29T22:58:44.028Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-30T16:03:53.786Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: build
 [info] ✔  hosting: Local server: http://localhost:5000

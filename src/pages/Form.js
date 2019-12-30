@@ -5,7 +5,7 @@ import swal from "sweetalert";
 import FirebaseApp from "../constants/base";
 import "./styles/form.css";
 
-const Home = () => {
+const Form = () => {
   let form = useRef();
   const handleSaveData = useCallback(async event => {
     event.preventDefault();
@@ -127,4 +127,4 @@ const Home = () => {
   );
 };
 
-export default withRouter(Home);
+export default withRouter(Form);
