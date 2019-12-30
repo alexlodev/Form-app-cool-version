@@ -1,0 +1,24 @@
+.formSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5% 30px;
+  margin: 0 5%;
+}
+.formWrapper {
+  max-width: 800px;
+  width: 400px;
+}
+.titleForm {
+  width: 40%;
+  font-size: 4vw;
+}
+@media only screen and (max-width: 600px) {
+  .titleForm {
+    width: 100%;
+  }
+  .formSection {
+    padding-bottom: 150px;
+  }
+}

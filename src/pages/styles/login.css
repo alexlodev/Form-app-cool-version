@@ -1,0 +1,27 @@
+.buttonLogin {
+  padding: 10px 90px;
+  margin-top: 20px;
+  background: rgb(71, 71, 255);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+}
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+  padding-top: 200px;
+  display: flex;
+}
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 0px;
+}
+.loginContein {
+  line-height: 50px;
+}
+.Login-form {
+  padding: 30px 0;
+}

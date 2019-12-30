@@ -1,0 +1,34 @@
+.listWrapper {
+  margin-left: 120px;
+}
+.listWrapper h2 {
+  font-size: 40px;
+  margin: 0px;
+  padding: 20px 0px;
+}
+.item {
+  height: 10%;
+  width: 97%;
+  align-items: center;
+  background: #fff;
+  margin: 10px 10px;
+  display: inline-flex;
+  border-radius: 10px;
+}
+.item h3 {
+  margin-left: 15px;
+}
+.item p {
+  margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .listWrapper {
+    margin-left: 10px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .item {
+    flex-wrap: wrap;
+  }
+}

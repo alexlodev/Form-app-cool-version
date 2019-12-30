@@ -1,0 +1,54 @@
+html {
+    font-size: 20px;
+    margin: 0;
+  }
+  * {
+    font-family: sans-serif;
+  }
+  p {
+    font-size: 16px;
+  }
+  h1 {
+    margin: 0px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  body {
+    background: #f4f7ff;
+    margin: 0px;
+  }
+  button {
+    font-size: 16px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    background: rgb(71, 71, 255);
+    box-shadow: 0px 10px 20px rgba(71, 71, 255, 0.39);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  select {
+    width: 50%;
+    font-size: 20px;
+  }
+  input {
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(223, 231, 255, 0.85);
+  }
+  textarea {
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(223, 231, 255, 0.85);
+    resize: none;
+    width: 50%;
+  }
+  
